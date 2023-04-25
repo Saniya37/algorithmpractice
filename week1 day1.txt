@@ -1,0 +1,85 @@
+Q) Write an algorithm to swap 2 numbers
+
+step1: start
+step2: read the two interger value num1,num2
+step3: place the num1 value in temp
+       temp<---num1
+step4: place the num2 value in num1
+       num1<---num2
+step5: place the temp value in num2
+       num2<---temp
+step6: print num1,num2
+step7: stop
+
+
+Q) Write an algorithm to find the biggest of two numbers
+
+step1: stsrt
+step2: read the two numbers num1,num2
+step3: if num1 is bigger than num2
+            print " num1 is bigger "
+       else
+            print " num2 is bigger "
+step4: stop
+
+
+Q) Write an algorithm to check whether the person is eligible to vote or not
+
+step1: start
+step2: read the age of the person
+step3: if (age>18)
+          print " eligilbe to vote "
+       else
+          print " not eligible to vote "
+step4: stop
+
+
+Q) Write an algorithm to find the sum of n natural numbers
+
+step1: start
+step2: read the value of n
+step3: find the sum using the formula sum<---(n(n+1))/2
+step4: print sum
+step5: stop
+
+
+Q) Write an algorithm to find the number of positive factors of an integer
+
+step1: start
+step2: read the value of an integer
+step3: initilize count=1, num=0, i=1
+step4: repeat (i),(ii) until (count<=n)
+       (i) if (n%i==0)
+              count=count+1
+       (ii) i=i+1
+step5: print " count "
+step6: stop
+
+
+Q) Write an algorithm to find the product of first n odd numbers
+
+step1: start
+step2: read the value of n
+step3: initilize i=1, product=1, count=1
+step4: repeat (i) (ii) (iii) until (count<=n)
+       (i) product=product*i
+       (ii) i=i+2
+       (iii) count=count+1
+step4: print " product "
+step5: stop
+
+
+Q) Write write an algorithm to find whether a given positive integer is a prime number or not
+
+step1: start
+step2: read the value of num
+step3: initialize count=0 and i=1
+step4: repeat (i) (ii) until (i<=num)
+       (i) if(n%i==0) then
+             count=count+1
+       (ii) i<--i+1
+step5: if(count==2) then
+          print"given num prime"
+       else
+          print"given num not prime"
+step6: end
